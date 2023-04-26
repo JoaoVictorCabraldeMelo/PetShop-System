@@ -3,15 +3,21 @@
 - O que foi feito ate agora:
 
 [X] Dockerizacao do sistema
+
 [X] Modelo do Banco Completo
+
 [X] Autorizacao JWT
+
 [X] Autorizacao Baseado em Cargo no sistem
 
 - O que foi planejado e nao foi feito:
 
 [] Todos os endpoints para fazer CRUD de cada registro endpoints para editar, criar, mostrar e deletar cada entidade no sistema.
+
 [] Colocar o swagger para fazer documentacao da API e o teste de endpoints
+
 [] Fazer o ambiente de teste para fazer os testes de unidades provavelmente vai ter que mecher no docker-compose adicionando outro servico para h2 ja que imagino que ficar fazendo teste com banco de dados que usa o disco seja muito lento
+
 [] Mostrar metricas da API com actuator nao mechi nele ainda apesar que o docker ja ta fazendo healthcheck com ele.
 
 - Possivei melhorias ja anotadas mover algumas variaveis sensiveis para .env como tambem utilizacao de mappers para serializacao mais rapida de objetos.
