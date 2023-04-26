@@ -2,7 +2,7 @@
 
 - O que foi feito ate agora:
 
-[ X ] Dockerizacao do sistema
+[X] Dockerizacao do sistema
 
 [X] Modelo do Banco Completo
 
